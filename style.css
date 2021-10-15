@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: BogleWeb,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.header{
+    background-color: #0071DC;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+.departments{
+    color: white;
+
+}
+.services{
+    color: white;
+}
+.round {
+    width: 100%;
+    border-radius: 15px;
+  height: 40px;   
+}
+
+
+.bi-search{
+  color: aliceblue;
+background: orange;
+border-radius: 50%;
+font-size: 20px;
+padding: 8px;
+cursor: pointer;
+float: right;
+scroll-padding: 1000px;
+position: relative;
+}
