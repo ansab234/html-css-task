@@ -1,40 +1,101 @@
-*{
+* {
     margin: 0;
 }
 
-body{
-    font-family: BogleWeb,Helvetica Neue,Helvetica,Arial,sans-serif;
+body {
+    font-family: BogleWeb, Helvetica Neue, Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
 }
 
-.header{
+.header {
     background-color: #0071DC;
     padding: 24px;
     display: flex;
     justify-content: space-between;
-    align-items: center;   
-}
-.departments{
-    color: white;
-
-}
-.services{
-    color: white;
-}
-.round {
+    align-items: center;
     width: 100%;
-    border-radius: 15px;
-  height: 40px;   
+    font-weight: 700;
+   
+    font-size: 12px;
 }
 
+.departments {
+    color: white;
+}
 
-.bi-search{
-  color: aliceblue;
-background: orange;
-border-radius: 50%;
-font-size: 20px;
-padding: 8px;
-cursor: pointer;
-float: right;
-scroll-padding: 1000px;
-position: relative;
+.services {
+    color: white;
+}
+
+.round {
+    width: 90%;
+    border-radius: 20px;
+    height: 40px;
+    border-style: hidden;
+}
+
+.btn-search {
+    background: #FFC220;
+    border-radius: 34px;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    right: 40px;
+    border-style: hidden;
+}
+
+.re-order {
+    position: relative;
+    right: 70px;
+    display: block;
+}
+
+.re-order-image {
+    color: #fff;
+    float: left;
+    padding: 10px 0px;
+}
+
+.re-oreder-text {
+    color: #fff;
+    text-align: start;
+    font-size: 12px;
+    font-style: normal;
+}
+
+.re-oreder-my-items {
+    color: #fff;
+    position: relative;
+    top: 10px;
+    font-size: 15px;
+}
+.signin {
+    position: relative;
+    right: 80px;
+    
+}
+
+.signin-image {
+    color: #fff;
+    float: left;
+    padding: 10px 0px;
+}
+
+.signin-text {
+    color: #fff;
+    text-align: start;
+    font-size: 12px;
+    font-style: normal;
+}
+
+.signin-account {
+    color: #fff;
+    position: relative;
+    text-align: center;
+    font-size: 16px;
+}
+.ad-to-cart{
+    position: relative;
+    right: 60px;
+    color: #fff;
 }
