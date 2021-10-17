@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wallmart</title>
+    <link rel="shortcut icon" type="image/png" href="assets/fav-icon.png">
+    <title>Walmart.com | Save Money. Live Better</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
@@ -14,95 +15,645 @@
 </head>
 
 <body>
+
+
+    <!-- header -->
+
+    <header class="bg-color">
+
+        <div class="flex align-items justify-content padding">
+
+            <a href="#" class="menu-icon">
+                <i class="fal fa-bars white h4"></i>
+            </a>
+
+            <a href="#" class="menu-icon">
+                <img src="assets/logo.png" height="35" width="35">
+            </a>
+
+            <a href="index.html" style="margin-right: 10px;" class="hide">
+                <img src="assets//logo.png" alt="Walmart Logo">
+            </a>
+
+            <div class="hide">
+                <button class="btns flex align-items justify-around">
+                    <i class="fal fa-border-all h4 white" style="margin-right:10px;margin-top:-2px;"></i>
+                    <div class="h5 white font-lg">Departments</div>
+                </button>
+            </div>
+
+            <div style="margin-right: 15px;" class="hide">
+                <button class="btns flex align-items justify-around">
+                    <i class="fal fa-border-all h4 white" style="margin-right:10px;margin-top:-2px;"></i>
+                    <div class="h5 white font-lg">Services</div>
+                </button>
+            </div>
+
+            <div style="width: 600px;position: relative;">
+                <input type="text" class="input h5" placeholder="Search everything at Walmart online and in store">
+                <button class="search">
+                    <i class="fal fa-search h5"></i>
+                </button>
+            </div>
+
+            <div style="margin-left: 20px;position: relative;" class="hide dropdown">
+                <button class="btns flex align-items justify-around" style="width: 135px;">
+                    <i class='fal fa-cart-arrow-down h4 white' style="margin-right:8px;"></i>
+                    <div>
+                        <div class="h6 white sign-in">Reorder</div>
+                        <br>
+                        <div class="h5 white font-lg">My Items</div>
+                    </div>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#" class="h6"><i class='fal fa-cart-arrow-down h5' style="margin-right: 10px;"></i>
+                        Reorder</a>
+                    <a href="#" class="h6"><i class="fal fa-clipboard-list-check h4"
+                            style="margin-right: 10px;margin-left: 4px;"></i> Lists</a>
+                    <a href="#" class="h6"><i class="far fa-gift h4" style="margin-right: 8px;margin-left: 3px;"></i>
+                        Registries</a>
+                </div>
+            </div>
+
+            <div style="margin-right: 10px;position: relative;" class="hide">
+                <button class="btns flex align-items justify-around">
+                    <i class="fal fa-user h4 white" style="margin-right:10px;margin-top:-2px;"></i>
+                    <div>
+                        <div class="h6 white sign-in">Sign In</div>
+                        <br>
+                        <div class="h5 white font-lg">Account</div>
+                    </div>
+                </button>
+            </div>
+
+            <div style="position: relative;margin-right: 10px;">
+                <button class="btn-cart white" style="margin-left: 10px;">
+                    <i class="fal fa-shopping-cart" style="font-size: 19px;"></i>
+                    <div style="margin-top: 2px;">$0.00</div>
+                </button>
+                <button class="cart-count">0</button>
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- sub-navbar -->
+
+    <section class="alert alert-color">
+
+        <div class="flex align-items h5 white" style="line-height: 2.8;padding-left: 24px;">
+            <i class="fal fa-home-alt h4"></i> <u>Bentonville Neighborhood Market</u>
+            <div class="white flex align-items h5" style="margin: 0 15px;">|</div>
+            <i class="fal fa-map-marker-alt h5"></i> <u>Bentonville, 72712</u>
+        </div>
+
+    </section>
+
+
+
+    <!-- HERO IMAGE -->
+    <section class="container">
+
+        <div class="hero-img">
+
+
+        </div>
+
+    </section>
+
+    <!-- Save on beauty -->
+
     <div>
 
-        <!-- header -->
-
-        <header>
-            <div class="header">
-                <div>
-                    <img src="/assets/logo.png">
-                </div>
-
-
-                <!-- Departments -->
-
-                <div class="departments">
-                    <a>
-                        <i class="fas fa-border-all"></i>
-                        Departments
-                    </a>
-                </div>
-
-
-                <!-- Services -->
-
-                <div class="services">
-                    <a>
-                        <i class="bi bi-grid"></i>
-                        Services
-                    </a>
-                </div>
+        <h2 style="margin: 15px;">Save on beauty</h2>
 
 
 
-                <!-- Search box -->
-
-                <form class="form">
-                    <div class="search">
-
-                        <input size=70px; type="search" class="round"
-                            placeholder="   Search everything at Walmart online and instore">
-                        <button class="btn-search"><i class="bi bi-search"></i></button>
-
-                    </div>
-                </form>
-
-
-
-                <!-- reorder -->
-            <div class="re-order">
-                <div class="re-order-image">
-                    <i class="bi bi-person"></i>
-
-                </div>
-
-                <div class="re-oreder-text">
-                    <h6>Reorder</h6>
-                </div>
-
-                <div class="re-oreder-my-items">
-                    <h4 >My Items</h4>
-                </div>    
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="img_5terre.jpg">
+                    <img src="assets/products/4.jpeg" alt="Cinque Terre" width="600" height="400">
+                    <button class="add-button">
+                        +Add
+                    </button>
+                </a>
+                <div class="desc">Add a description of the image here</div>
             </div>
-                
+        </div>
 
 
-
-               <!-- signin -->
-               <div class="signin">
-                <div class="signin-image">
-                    <i class="bi bi-person"></i>
-
-                </div>
-
-                <div class="signin-text">
-                    <h6>Signin</h6>
-                </div>
-
-                <div  class="signin-account">
-                    <h4>Accounts</h4>
-                </div>    
-
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="">
+                    <img src="assets/products/3.png" alt="Forest" width="600" height="400">
+                    <button class="add-button">
+                        +Add
+                    </button>
+                </a>
+                <div class="desc">Add a description of the image here</div>
             </div>
-            <div class="ad-to-cart">
-                <h1><i class="bi bi-cart2"></i>
-                </h1>
-                
-           </div>
+        </div>
 
-        </header>
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="">
+                    <img src="assets/products/2.jpeg" alt="Northern Lights" width="600" height="400">
+                    <button class="add-button">
+                        +Add
+                    </button>
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
+        </div>
+
+
+
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="">
+                    <img src="assets/products/1.jpeg" alt="Mountains" width="600" height="400">
+                    <button class="add-button">
+                        +Add
+                    </button>
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+
+
     </div>
+
+
+
+    <!-- Popular in Exploration and Adventure -->
+
+    <div>
+
+        <h2 style="margin: 15px;">Popular in Exploration and Adventure</h2>
+
+
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="img_5terre.jpg">
+                    <img src="assets/4.jpg" alt="Cinque Terre" width="600" height="500">
+                    <button class="add-button">
+                        +Add
+                    </button>
+                </a>
+                <div class="desc">Popular in Exploration and Adventure
+                </div>
+            </div>
+        </div>
+
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="">
+                    <img src="assets/5.jpg" alt="Forest" width="600" height="400">
+                    <button class="add-button">
+                        +Add
+                    </button>
+                </a>
+                <div class="desc">Popular in Exploration and Adventure
+                </div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="">
+                    <img src="assets/6.jpg" alt="Northern Lights" width="600" height="400">
+                    <button class="add-button">
+                        +Add
+                    </button>
+                </a>
+                <div class="desc">Popular in Exploration and Adventure
+                </div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="">
+                    <img src="assets/7.jpg" alt="Mountains" width="600" height="400">
+                    <button class="add-button">
+                        +Add
+                    </button>
+                </a>
+                <div class="desc">Popular in Exploration and Adventure
+                </div>
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+
+
+    </div>
+
+
+    <div>
+
+
+
+        <!-- For You -->
+        <h2 style="margin: 15px;">For You</h2>
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="img_5terre.jpg">
+                    <img src="assets/12.jpg" alt="Cinque Terre" width="700" height="400">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
+        </div>
+
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="">
+                    <img src="assets/13.jpg" alt="Forest" width="700" height="400">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="">
+                    <img src="assets/14.jpg" alt="Northern Lights" width="700" height="400">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="">
+                    <img src="assets/15.jpg" alt="Northern Lights" width="700" height="400">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+
+
+    </div>
+
+
+
+    <!-- Popular Services -->
+    <div class="row-2">
+        <h2 style="margin-left: 15px; margin-top: 15px;">Popular Services</h2>
+
+        <div class="column-2">
+            <img src="assets/icons/1.png" alt="Snow" style="width:100%">
+            <h5 style="text-align: center; color: rgb(173, 167, 158);">Pharamacy</h5>
+        </div>
+        <div class="column-2">
+            <img src="assets/icons/2.png" alt="Forest" style="width:100%">
+            <h5 style="text-align: center; color: rgb(173, 167, 158);">Auto Care Centre</h5>
+        </div>
+        <div class="column-2">
+            <img src="assets/icons/3.png" alt="Mountains" style="width:100%">
+            <h5 style="text-align: center; color: rgb(173, 167, 158);">Cakes</h5>
+        </div>
+    </div>
+
+
+
+
+    <!-- In Season -->
+
+    <div class="row">
+        <h2 style="margin-left: 15px; margin-top: 15px;">In Season</h2>
+        <div class="column">
+            <img src="assets/13.jpg" alt="Forest" style="width:100%">
+            <button class="shop-button">
+                Shop Now
+            </button>
+        </div>
+        <div class="column">
+            <img src="assets/12.jpg" alt="Mountains" style="width:100%">
+            <button class="shop-button">
+                Shop Now
+            </button>
+        </div>
+        <div class="column">
+            <img src="assets/3.jpg" alt="Mountains" style="width:100%">
+            <button class="shop-button">
+                Shop Now
+            </button>
+        </div>
+    </div>
+
+
+
+
+    <!-- Build your cart -->
+    <h2 style="margin: 15px;">Build your cart</h2>
+
+
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img_5terre.jpg">
+                <img src="assets/products/35.jpeg" alt="Cinque Terre" width="700" height="400">
+                <button class="add-button">
+                    +Add
+                </button>
+            </a>
+            <div class="desc">Add a description of the image here</div>
+        </div>
+    </div>
+
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="">
+                <img src="assets/products/36.jpeg" alt="Forest" width="700" height="400">
+                <button class="add-button">
+                    +Add
+                </button>
+            </a>
+            <div class="desc">Add a description of the image here</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="">
+                <img src="assets/products/37.jpeg" alt="Northern Lights" width="700" height="400">
+                <button class="add-button">
+                    +Add
+                </button>
+            </a>
+            <div class="desc">Add a description of the image here</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="">
+                <img src="assets/products/38.jpeg" alt="Northern Lights" width="700" height="400">
+                <button class="add-button">
+                    +Add
+                </button>
+            </a>
+            <div class="desc">Add a description of the image here</div>
+        </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+
+    </div>
+
+
+
+    <!-- Build your cart -->
+    <h2 style="margin: 15px;">Build your cart</h2>
+
+
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img_5terre.jpg">
+                <img src="assets/products/20.jpeg" alt="Cinque Terre" width="700" height="400">
+                <button class="add-button">
+                    +Add
+                </button>
+            </a>
+            <div class="desc">Add a description of the image here</div>
+        </div>
+    </div>
+
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="">
+                <img src="assets/products/21.jpeg" alt="Forest" width="700" height="400">
+                <button class="add-button">
+                    +Add
+                </button>
+            </a>
+            <div class="desc">Add a description of the image here</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="">
+                <img src="assets/products/22.jpeg" alt="Northern Lights" width="700" height="400">
+                <button class="add-button">
+                    +Add
+                </button>
+            </a>
+            <div class="desc">Add a description of the image here</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="">
+                <img src="assets/products/23.jpeg" alt="Northern Lights" width="700" height="400">
+                <button class="add-button">
+                    +Add
+                </button>
+            </a>
+            <div class="desc">Add a description of the image here</div>
+        </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+
+    </div>
+
+
+
+
+
+
+    <!--Home for the holidays-->
+    <h2 style="margin: 15px;">Home for the holidays
+    </h2>
+
+
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img_5terre.jpg">
+                <img style="border-radius: 50%;" src="assets/8.jpg" alt="Cinque Terre" width="700" height="400">
+            </a>
+            <div class="desc">Add a description of the image here</div>
+        </div>
+    </div>
+
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="">
+                <img src="assets/9.jpg" alt="Forest" width="700" height="400">
+            </a>
+            <div class="desc">Add a description of the image here</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="">
+                <img src="assets/10.jpg" alt="Northern Lights" width="700" height="400">
+            </a>
+            <div class="desc">Add a description of the image here</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="">
+                <img src="assets/11.jpg" alt="Northern Lights" width="700" height="400">
+            </a>
+            <div class="desc">Add a description of the image here</div>
+        </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+
+    </div>
+
+
+    <!-- COVID-19 info & updates -->
+
+
+    <div class="row">
+        <h2 style="margin-top: 15px; margin-left: 15px;">COVID-19 info & updates
+        </h2>
+        <div class="column-2">
+
+            <img src="assets/14.jpg" alt="Forest" style="width:100%">
+            <h4 style="margin-top: 20px; margin-left: 10px;">At-home COVID-19 tests</h4>
+            <h5 style="margin-top: 15px; margin-left: 10px; margin-bottom: 30px; color: rgb(128, 125, 122);">
+                Now available at Walmart.
+            </h5>
+            <button class="shop-button">
+                Shop Now
+            </button>
+        </div>
+        <div class="column-2">
+
+            <img src="assets/15.jpg" alt="Mountains" style="width:100%">
+            <h4 style="margin-top: 20px; margin-left: 10px;">COVID vaccine & Booster</h4>
+            <h5 style="margin-top: 15px; margin-left: 10px; margin-bottom: 30px; color: rgb(128, 125, 122);">
+                Now available for eligible patients</h5>
+            <button class="shop-button">
+                Schedule Now
+            </button>
+        </div>
+        <div class="column-2">
+
+            <img src="assets/17.jpg" alt="Mountains" style="width:100%">
+            <h4 style="margin-top: 20px; margin-left: 10px;">Black Community Support</h4>
+            <h5 style="margin-top: 15px; margin-left: 10px; margin-bottom: 30px; color: rgb(128, 125, 122);">Standing
+                with organizations & community</h5>
+            <button class="shop-button">
+                Learn More </button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- Trending -->
+
+
+    <div class="row">
+        <h2 style="margin-top: 15px; margin-left: 15px;">Trending</h2>
+        <div class="column-2">
+
+            <img src="assets/1.jpg" alt="Forest" style="width:100%">
+            <h4 style="margin-top: 20px; margin-left: 10px;">Black Community Support</h4>
+            <h5 style="margin-top: 15px; margin-left: 10px; margin-bottom: 30px; color: rgb(128, 125, 122);">Standing
+                with organizations & community</h5>
+            <button class="shop-button">
+                Shop Now
+            </button>
+        </div>
+        <div class="column-2">
+
+            <img src="assets/2.jpg" alt="Mountains" style="width:100%">
+            <h4 style="margin-top: 20px; margin-left: 10px;">Black Community Support</h4>
+            <h5 style="margin-top: 15px; margin-left: 10px; margin-bottom: 30px; color: rgb(128, 125, 122);">Standing
+                with organizations & community</h5>
+            <button class="shop-button">
+                Shop Now
+            </button>
+        </div>
+        <div class="column-2">
+
+            <img src="assets/3.jpg" alt="Mountains" style="width:100%">
+            <h4 style="margin-top: 20px; margin-left: 10px;">Black Community Support</h4>
+            <h5 style="margin-top: 15px; margin-left: 10px; margin-bottom: 30px; color: rgb(128, 125, 122);">Standing
+                with organizations & community</h5>
+            <button class="shop-button">
+                Shop Now
+            </button>
+        </div>
+    </div>
+
+
+
+
+    <!-- Footer Start -->
+
+
+    <span>
+        <footer style="margin-top: 40px; padding-top: 50px; background-color: #e6f1fc; ">
+            <div style="text-align: center; margin-bottom: 28px; padding-bottom: 4px; padding-top: 4px; ">
+                <p style="font-size: 16px; margin-top: 0; color: black;">We’d love to hear what you think!</p>
+                <button class="btn" style="border-radius: 62.5rem; 
+                    padding: 0 1.5rem;  margin-top: 10px; 
+                    font-size: 1rem; height: 2.5rem; cursor: pointer;" type="button">Give feedback</button>
+            </div>
+            <div style="background-color: #004f9a; padding: 24px 0px;">
+                <ul style="max-width:1280px; line-height: 2; text-decoration: none; list-style-type: none; flex-wrap: wrap;
+                    display: flex; justify-content: center;">
+                    <li><a style=" text-decoration: none; padding: 24px; color: #fff; font-size: 14px;">Privacy &
+                            Security</a></li>
+                    <li><a style="text-decoration: none; padding: 24px; color: #fff; font-size: 14px;">CA Privacy
+                            Rights</a></li>
+                    <li><a style="text-decoration: none; padding: 24px; color: #fff; font-size: 14px;">Do Not Sell My
+                            Personal Information</a></li>
+                    <li><a style="text-decoration: none; padding: 24px; color: #fff; font-size: 14px;">Request My
+                            Personal Information</a></li>
+                    <li><a style="text-decoration: none; padding: 24px; color: #fff; font-size: 14px;">Help</a>
+                    </li>
+                    <li><a style="text-decoration: none; padding: 24px; color: #fff; font-size: 14px;">Terms of
+                            Use</a></li>
+                    <li><a style="text-decoration: none; padding: 24px; color: #fff; font-size: 14px;">All
+                            Departments</a></li>
+                    <li><a style="text-decoration: none; padding: 24px; color: #fff; font-size: 14px;">Store
+                            Directory</a></li>
+                </ul>
+                <div style="color: white; margin-top: 50px; text-align: center; font-size: 12px;">© 2021 Walmart.
+                    All Rights Reserved.
+                </div>
+            </div>
+        </footer>
+    </span>
+
+    <!-- Footer end -->
+
+
 
 </body>
 
